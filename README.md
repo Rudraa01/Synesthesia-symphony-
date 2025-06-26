@@ -9,7 +9,7 @@
 
 **Transform letters into colors, sounds, and visual poetry**
 
-[🚀 Live Demo](https://github.com/rudra-vishwakarma/Synesthesia-symphony) • [📖 Documentation](#features) • [🎨 Gallery](#visual-modes) • [🤝 Contribute](#contributing)
+[🚀 Live Demo](https://rudraa01.github.io/Synesthesia-symphony-/) • [📖 Documentation](#features) • [🎨 Gallery](#visual-modes) • [🤝 Contribute](#contributing)
 
 </div>
 
