@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synesthesia Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+
+
+    <div class="instructions" id="instructions">
+    </div>
+
+    <div class="typing-area">
+        <input type="text" id="textInput" autofocus>
+        <button id="modeBtn" class="mode-button">◐</button>
+    </div>
+
+    <div class="footer">
+        <div class="creator-info">Created by Rudra Vishwakarma</div>
+        <div class="footer-divider"></div>
+        <div class="social-links">
+            <a href="https://instagram.com/_rudra.aaaaa" target="_blank" class="social-link" data-name="Instagram" aria-label="Instagram">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="6" fill="#222" />
+                    <path d="M16.98 2H7.02C4.25 2 2 4.25 2 7.02v9.96C2 19.75 4.25 22 7.02 22h9.96C19.75 22 22 19.75 22 16.98V7.02C22 4.25 19.75 2 16.98 2zM12 17.2A5.2 5.2 0 1 1 12 6.8a5.2 5.2 0 0 1 0 10.4zm6.4-10.6a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"
+                    fill="#fff" />
+                <circle cx="12" cy="12" r="3.2" fill="#fff" />
+            </svg>
+            </a>
+            <a href="https://linkedin.com/in/rudravishwakarma" target="_blank" class="social-link" data-name="LinkedIn" aria-label="LinkedIn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="6" fill="#222" />
+                    <path d="M6.94 19h2.6V9.97h-2.6V19zM8.24 8.82a1.5 1.5 0 1 0 0-3.01 1.5 1.5 0 0 0 0 3zm3.13 10.18h2.6v-4.5c0-1.07.02-2.44 1.49-2.44 1.48 0 1.7 1.16 1.7 2.36V19h2.6v-5.1c0-2.44-.52-4.32-3.36-4.32-1.36 0-2.28.75-2.65 1.47h.02V9.97h-2.6c.03.93 0 9.03 0 9.03z"
+                    fill="#fff" />
+                </svg>
+            </a>
+            <a href="https://github.com/rudraa01" target="_blank" class="social-link" data-name="GitHub" aria-label="GitHub">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="6" fill="#222" />
+                    <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.64.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.38-2.03 1.01-2.75-.1-.26-.44-1.3.1-2.7 0 0 .83-.27 2.73 1.02A9.18 9.18 0 0 1 12 6.84c.84.004 1.68.11 2.47.32 1.9-1.29 2.73-1.02 2.73-1.02.54 1.4.2 2.44.1 2.7.63.72 1.01 1.63 1.01 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"
+                    fill="#fff" />
+                </svg>
+            </a>
+            <a href="https://twitter.com/Rudracavin" target="_blank" class="social-link" data-name="Twitter" aria-label="Twitter">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="6" fill="#222" />
+                    <path d="M19.633 7.997c.013.18.013.36.013.54 0 5.49-4.18 11.82-11.82 11.82-2.35 0-4.54-.69-6.38-1.87.33.04.66.06 1 .06 1.95 0 3.75-.66 5.18-1.77a4.16 4.16 0 0 1-3.88-2.88c.25.04.5.07.77.07.36 0 .72-.05 1.05-.14a4.15 4.15 0 0 1-3.33-4.07v-.05c.56.31 1.2.5 1.88.52a4.14 4.14 0 0 1-1.85-3.45c0-.76.2-1.47.55-2.08a11.77 11.77 0 0 0 8.54 4.33c-.07-.3-.11-.61-.11-.93a4.15 4.15 0 0 1 7.18-3.78 8.18 8.18 0 0 0 2.63-1c-.29.9-.9 1.66-1.7 2.14a8.23 8.23 0 0 0 2.39-.65c-.53.82-1.2 1.54-1.98 2.12z"
+                    fill="#fff" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
